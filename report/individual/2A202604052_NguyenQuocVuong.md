@@ -93,7 +93,9 @@ Không có lỗi nào chỉ lượt 2 mới thấy. Lượt 2 chủ yếu để 
 |---|---|
 | Tên file MOT 1.1 | Đúng|
 | Tên file CVAT for video 1.1 | Đúng|
-
+| Số track ID khác nhau trong `gt/gt.txt` (phải là 5) |5 |
+| Frame `outside` không có dòng trong `gt.txt` (đúng / sai) |đúng |
+| Job đã completed trên CVAT máy cá nhân | Hoàn thành|
 
 Dán phần tóm tắt in ra từ `src/check_submission.py`:
 
